@@ -14,14 +14,11 @@ public class QuerySentences {
       for (String sentence : sentences) {
         sentence = sentence.toLowerCase();
         List<String> stringWords = Arrays.asList(sentence.split("[^\\w]"));
-
         if (stringWords.containsAll(queryWords)){
           numMatches ++;
         }
       }
-
       System.out.println("The query \"" + query + "\"  has " + numMatches + " sentence(s) that contain all of its words.");
-
     }
   }
 
