@@ -1,6 +1,5 @@
 package com.company;
 import java.util.*;
-import java.util.Collections;
 
 /**Given n sentences and q queries, for each query print the number of sentences that contains all the words of the query.**/
 public class QuerySentences {
