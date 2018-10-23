@@ -6,7 +6,6 @@ import java.util.Collections;
 public class QuerySentences {
 
   private static void querySentences(List<String> sentences, List<String> queries) {
-
     for (String query : queries) {
       query = query.toLowerCase();
       List<String> queryWords = Arrays.asList(query.split("[^\\w]"));
